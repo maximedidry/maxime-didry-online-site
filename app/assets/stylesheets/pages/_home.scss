@@ -1,1 +1,65 @@
 // Specific CSS for your home-page
+body {
+  background-color: #402845!important;
+
+}
+
+.container {
+  color: #fff;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 140px!important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 60px!important;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.didry {
+  text-align: right;
+}
+
+p, span{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.hard-skills {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.logo {
+  width: 120px!important;
+  transition: cubic-bezier(0,.91,1,-0.01), .8s;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+  transition: cubic-bezier(0,.91,1,-0.01), 1.5s;
+}
+
+.savoir-faire {
+  text-align: center!important;
+  padding: 10px;
+}
+
+.folio-img {
+  width: 35%;
+  border-radius: 50%;
+}
+
+body {
+  background-image: url('frontpic.jpg')!important;
+  background-repeat: no-repeat;
+  background-size:contain;
+}

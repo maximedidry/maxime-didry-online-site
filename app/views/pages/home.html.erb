@@ -1,15 +1,16 @@
 <%= render "components/navbar" %>
 <div class="container">
-  <div class="row">
+  <div class="row headings">
     <div class="col-12">
       <h1>MAXIME</h1>
-      <h1>DIDRY</h1>
-      <h1>FRONT-END</h1>
-      <h1>DEVELOPER</h1>
+      <h1 class="didry">DIDRY</h1>
+      <h2 class="element"></h2>
+      <h1>FRONT</h1>
+      <h1 class="didry">DEVELOPER</h1>
     </div>
   </div>
   <div class="row">
-    <div class="col-6">
+    <div class="col-12">
       <p>Je crée des applications web et des sites internets avec tout l’Amour, la Créativité, et le Savoir Faire que j’ai. Je m’amuse aussi à toucher à l’UX design pour vous proposer des projets et produits toujours plus pro.</p>
     </div>
   </div>
@@ -17,27 +18,24 @@
     <div class="col-12">
       <h2>Hard-Skills</h2>
     </div>
-    <div class="col-6">
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>GitHub</li>
-        <li>Heroku</li>
-        <li>SQL</li>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
+  </div>
+  <div class="row row-hard">
+<div class="col-12 hard-skills">
+  <%= image_tag('25231.png', class:'logo') %>
+  <%= image_tag('Rails.png', class:'logo') %>
+  <%= image_tag('javascript-logo.png', class:'logo')  %>
+  <%= image_tag('5968704.png', class:'logo')%>
+</div>
+
+  </div>
+  <div class="row">
+      <div class="col-12 savoir-faire">
         <h2>Savoir Faire</h2>
-        <ul>
-          <li>lorem ipsum lorem ipsum lorem ipsum</li>
-          <li>lorem ipsum lorem ipsum lorem ipsum</li>
-          <li>lorem ipsum lorem ipsum lorem ipsum</li>
-          <li>lorem ipsum lorem ipsum lorem ipsum</li>
-          <li>lorem ipsum lorem ipsum lorem ipsum</li>
-        </ul>
+          <span>lorem ipsum lorem ipsum lorem ipsum</span><br>
+          <span>lorem ipsum lorem ipsum lorem ipsum</span><br>
+          <span>lorem ipsum lorem ipsum lorem ipsum</span><br>
+          <span>lorem ipsum lorem ipsum lorem ipsum</span><br>
+          <span>lorem ipsum lorem ipsum lorem ipsum</span><br>
     </div>
   </div>
   <div class="row">
@@ -54,10 +52,8 @@
     <div class="col-12">
       <h2>Mon Portfolio</h2>
     </div>
-    <div class="col-4">
-      <ul>
-        <li>World Maker</li>
-      </ul>
+    <div class="col-12">
+      <%= link_to image_tag('wm42.jpg', class:'folio-img')%>
     </div>
   </div>
   <div class="row">

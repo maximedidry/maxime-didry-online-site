@@ -12,5 +12,7 @@
 }
 
 .navbar {
-  background-color: purple;
+  background-color: transparent;
+  position: sticky!important;
+  border-bottom: 1px solid #0e0e0e;
 }
