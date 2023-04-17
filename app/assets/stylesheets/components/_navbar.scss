@@ -5,14 +5,23 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+
 }
 
 .navbar {
   background-color: transparent;
   position: sticky!important;
-  border-bottom: 1px solid #0e0e0e;
+  border-bottom: 1px solid #c1c0c0;
+  top: 0;
+
+}
+
+.nav-link {
+  color: #c1c0c0!important;
+  gap: 20px!important;
 }

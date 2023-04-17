@@ -9,6 +9,7 @@
       <h1 class="didry">DEVELOPER</h1>
     </div>
   </div>
+  <hr class="solid" id="hr-solid">
   <div class="row">
     <div class="col-12">
       <p>Je crée des applications web et des sites internets avec tout l’Amour, la Créativité, et le Savoir Faire que j’ai. Je m’amuse aussi à toucher à l’UX design pour vous proposer des projets et produits toujours plus pro.</p>
@@ -92,3 +93,13 @@
       </div>
     </div>
 </div>
+<script>
+window.onscroll = function() {
+  let bg = document.getElementById("hr-solid");
+  if (window.pageYOffset > 1000) {
+    bg.style.backgroundAttachment = "scroll";
+  } else {
+    bg.style.backgroundAttachment = "fixed";
+  }
+};
+</script>
