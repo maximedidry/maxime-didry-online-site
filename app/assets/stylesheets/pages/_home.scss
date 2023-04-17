@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 body {
   background-color: #402845!important;
-
+  font-family: 'Montserrat', sans-serif!important;
 }
 
 .container {
@@ -11,7 +11,8 @@ body {
 
 h1 {
   font-size: 140px!important;
-
+  font-family: 'Rubik 80s Fade', cursive;
+  text-shadow:  0 0 10px #100f0f, 0 0 20px #fff, 0 0 30px #040404
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
+  font-family: 'Montserrat', sans-serif!important;
 }
 
 .didry {
@@ -29,6 +31,7 @@ p, span{
   font-size: 30px;
   text-align: center;
   padding: 10px;
+  font-family: 'Montserrat', sans-serif!important;
 }
 
 .hard-skills {
