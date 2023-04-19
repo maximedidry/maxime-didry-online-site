@@ -1,7 +1,10 @@
 // Specific CSS for your home-page
+
+
 body {
-  background-color: #402845!important;
+  background-color: #2d819d!important;
   font-family: 'Montserrat', sans-serif!important;
+  scroll-behavior: smooth!important;
 }
 
 .container {
@@ -73,11 +76,12 @@ p, span{
   z-index: 1;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  z-index: 0;
-}
+// .sticky {
+//   position: sticky;
+//   top: 0;
+//   z-index: 0;
+
+// }
 
 
 
@@ -86,5 +90,3 @@ hr.solid {
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
-
-

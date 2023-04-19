@@ -1,17 +1,21 @@
 <%= render "components/navbar" %>
+
 <div class="background ">
+
   <div class="row headings">
     <div class="col-12">
       <h1>MAXIME</h1>
       <h1 class="didry">DIDRY</h1>
-      <h2 class="element"></h2>
+      <h2 class="element sticky"></h2>
       <h1>DEVELOPPEUR</h1>
       <h1 class="didry">CRÉATIF</h1>
     </div>
   </div>
+
+
 </div>
-<div class="container sticky">
-  <hr class="solid" id="hr-solid">
+  <%# <hr class="solid" id="hr-solid"> %>
+  <div class="container ">
   <div class="row">
     <div class="col-12">
       <p>Je crée des applications web et des sites internets avec tout l’Amour, la Créativité, et le Savoir Faire que j’ai. Je m’amuse aussi à toucher à l’UX design pour vous proposer des projets et produits toujours plus pro.</p>
@@ -94,15 +98,17 @@
       <%= link_to %>
       </div>
     </div>
+  </div>
 </div>
 <script>
-window.onscroll = function() {myFunction()};
+// window.addEventListener('scroll', function() {
+//   var scrollPosition = window.pageYOffset;
+//   var parallaxElements = document.querySelectorAll('.parallax-bg');
 
-function myFunction() {
-  if (document.documentElement.scrollTop > 2000) {
-    document.getElementById("myP").className = "scroll";
-  } else {
-    document.getElementById("myP").className = "";
-  }
-}
+//   parallaxElements.forEach(function(parallaxElement) {
+//     var speed = parallaxElement.getAttribute('data-speed');
+//     var translate = 'translate3d(0, ' + scrollPosition * speed + 'px, 0)';
+//     parallaxElement.style.transform = translate;
+//   });
+// });
 </script>
