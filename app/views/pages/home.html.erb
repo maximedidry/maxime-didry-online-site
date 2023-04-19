@@ -1,14 +1,16 @@
 <%= render "components/navbar" %>
-<div class="container">
+<div class="background ">
   <div class="row headings">
     <div class="col-12">
       <h1>MAXIME</h1>
       <h1 class="didry">DIDRY</h1>
       <h2 class="element"></h2>
-      <h1>FRONT</h1>
-      <h1 class="didry">DEVELOPER</h1>
+      <h1>DEVELOPPEUR</h1>
+      <h1 class="didry">CRÉATIF</h1>
     </div>
   </div>
+</div>
+<div class="container sticky">
   <hr class="solid" id="hr-solid">
   <div class="row">
     <div class="col-12">
@@ -94,12 +96,13 @@
     </div>
 </div>
 <script>
-window.onscroll = function() {
-  let bg = document.getElementById("hr-solid");
-  if (window.pageYOffset > 1000) {
-    bg.style.backgroundAttachment = "scroll";
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.documentElement.scrollTop > 2000) {
+    document.getElementById("myP").className = "scroll";
   } else {
-    bg.style.backgroundAttachment = "fixed";
+    document.getElementById("myP").className = "";
   }
-};
+}
 </script>
