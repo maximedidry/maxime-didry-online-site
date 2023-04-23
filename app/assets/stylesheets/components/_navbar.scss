@@ -23,6 +23,11 @@
 }
 
 .nav-link {
-  color: #c1c0c0!important;
+  color: #ffffff!important;
   gap: 20px!important;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  mix-blend-mode: difference;
 }
